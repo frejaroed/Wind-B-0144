@@ -11,4 +11,3 @@ DTU Wind-B-0144
 Date:
 June 2025
 
-The files in this repository is made up of CSV and Python files:
