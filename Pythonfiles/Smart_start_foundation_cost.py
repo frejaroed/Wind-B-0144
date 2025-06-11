@@ -255,8 +255,8 @@ def get_problem(wt, EIB_boundary, wf_model, n_wt, site_name, rated_power, n_spac
 results_df = pd.DataFrame(columns=['turbine [MW]', 'site', 'seed', 'Foundation Cost [M€]', 'avg water depth [m]', 'AEP [GWh]', 'AEP without wake loss [GWh]', 'Wake loss [%]'])
 
 # Define turbines and sites to iterate over
-turbines = [22]  # Turbine capacities in MW
-sites = ['EIB1N']      # Site names
+turbines = [8,10,12,15,17,20,22]  # Turbine capacities in MW
+sites = ['EIB1N','EIB1S','EIB2']      # Site names
 seeds = range(2, 3)                    # Seeds from 1 to 10
 
 # Nested loops for turbines, sites, and seeds
